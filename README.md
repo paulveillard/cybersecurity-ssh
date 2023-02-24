@@ -71,7 +71,7 @@ The client-server relationship can be tricky to understand. So, let’s delve in
 
 
 
-As stated previously, the SSH server is always the one that initiates the network connection. However, it also stays vigilant for new connections and responds to them. The server does that using the host system’s TCP port 22. 
+As stated previously, the **SSH server is always the one that initiates the network connection.** However, it also stays vigilant for new connections and responds to them. The server does that using the host system’s TCP port 22. 
 
 
 
