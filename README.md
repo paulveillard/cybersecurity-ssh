@@ -64,7 +64,7 @@ The client-server relationship can be tricky to understand. So, let’s delve in
 
 As stated previously, the SSH server is always the one that initiates the network connection. However, it also stays vigilant for new connections and responds to them. The server does that using the host system’s TCP port 22. 
 
-![ssh-4](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-3.png)
+
 
 At the start of every SSH connection, the server must authenticate itself to the client using public-key cryptography. This client authentication is necessary so the SSH client can make sure it’s communicating with a legitimate server and not an attacker.
 
@@ -74,6 +74,8 @@ Once the client and the server establish a safe connection, users can perform:
     Remote command execution
     Remote host administration
     Other application traffic security
+    
+ ![ssh-4](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-3.png)
 
 - Unfortunately, the SSH server is often the chosen target of cyberattackers as it provides remote access to the host system. Due to that, the software quality must be high, and the server must have strict security requirements. In other words, its code has to be reliable to prevent bugs and imperfections that could lead to unnecessary exposure. 
 
@@ -110,6 +112,8 @@ Unfortunately, it is estimated that more than 90% of SSH keys in large corporati
 
 ### `What is SSH typically used for?`
 
+
+
 The SSH protocol is most notably used in data centers where it provides:
 
     Remote access to various resources
@@ -119,7 +123,7 @@ The SSH protocol is most notably used in data centers where it provides:
     Secure router management
     Server hardware maintenance
 
-
+![ssh-42](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-4.png)
 
 In almost all data centers, SSH comes together with Mac, Unix and Linux operating systems.  
 
