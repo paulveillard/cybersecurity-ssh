@@ -105,14 +105,14 @@ On successfully entering these credentials, you will log on to the remote system
 SSH secure shell has multiple features that make it essential in computer networks. Some of its features are as follows:
 
     
-### Secure Remote Logins
+#### Secure Remote Logins
 
 The fundamental feature of the SSH secure shell protocol is to provide secure login access to a remote system over open networks. Your username and password are encrypted on the local machine before establishing a connection.
 
 The client then uses this encrypted connection to authenticate you to the remote system’s SSH server. The entire login session remains encrypted in this mechanism
     
     
-### Secure File Transfer
+#### Secure File Transfer
 
 Another great feature for which SSH is loved and used by thousands of network administrators is its ability to securely transfer a file with quick speed. You literally need to type a single copy command along with the filename and its source, and the file is ready to get transferred. The file gets encrypted before the transfer and automatically decrypts after the transfer.
 
@@ -120,7 +120,7 @@ Here is the command to transfer a file from one system to another remote system:
 
  $ scp myfile metoo@secondaccount.com
 
-### Secure Remote Command Execution
+#### Secure Remote Command Execution
 
 System administrators often need to run the same command on different computers. However, to save themselves from this monotonous task, secure shell offers a way to securely execute the command for different computers in one go.
 
@@ -136,20 +136,20 @@ ssh $machine /usr/bin/w
 
 done
     
-### Keys and Agents
+#### Keys and Agents
 
 Remembering multiple passwords for different networks and computer systems is a tough task. That is why the SSH secure shell makes use of keys for its authentication mechanisms. Leveraging the keys and a program known as an authentication agent, secure shell protocol authenticates you to all your computer accounts securely in one go.
 
 You just need to enter all the key files once into your remote system accounts. Then every time you need to access a system, you can invoke the ssh-agent program using the command line that helps you to access the remote system without asking for authentication.
     
     
-### Access Control
+#### Access Control
 
 SSH also allows its users to permit another person to use their personal account to access remote computers. However, the other person may get only limited access to certain functionalities.
 
 Moreover, your password or the keys does not get exposed to the user you are lending your system to. It is a highly beneficial feature that eases the workflow for network and system administrators. 
 
-### Port Forwarding
+#### Port Forwarding
 
 It is a technique in which a TCP/IP connection can be passed through a secure shell connection to secure data transmission. This process is also known as tunneling in computer networks. It is mostly used when a network firewall blocks incoming connections to the system ports.
 
