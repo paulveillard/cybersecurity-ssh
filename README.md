@@ -4,10 +4,10 @@
 - Introduction
 
 
-### What is SSH? A Beginner's guide to Secure SSH
+### About SSH? A Beginner's guide to Secure SSH
 - A Secure Shell, or Secure Socket Shell, is a network protocol that allows devices to achieve two important things: communicate and share data. Additionally, the SSH protocol also encrypts data, making it ideal for unsecured networks.
 
-### How Does it Work?
+### What is SSH Exactly??
 
 
 As a term, Secure Socket Shell, defines both a cryptographic network protocol and the programs that enable it to work.
