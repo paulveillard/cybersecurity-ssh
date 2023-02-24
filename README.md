@@ -30,7 +30,7 @@ As a term, Secure Socket Shell, defines both a cryptographic network protocol an
 
 > SSH enables network administrators to access a computer via an unsecured network in a safe manner. It ensures a secure connection that allows it to operate and manage remote computers without worrying about the safety of shared data.  
 
-To achieve this, the SSH protocol does not only provide encryption with the help of a secure channel but also strong password authentication and public-key authentication.
+To achieve this, the SSH protocol does not only provide encryption with the help of a secure channel but also *strong password authentication* and *public-key authentication.*
 
 ![ssh-1.0](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-1.0.png)
 
