@@ -10,7 +10,7 @@ An ongoing & curated collection of awesome software best practices and technique
 
 
 ### `About SSH? A Beginner's guide to Secure SSH`
-- A Secure Shell, or Secure Socket Shell, is a network protocol that allows devices to achieve two important things: communicate and share data. Additionally, the SSH protocol also encrypts data, making it ideal for unsecured networks.
+- A Secure Shell, or Secure Socket Shell, SSH is a network protocol that allows devices to achieve two important things: communicate and share data. Additionally, the SSH protocol also encrypts data, making it ideal for unsecured networks.
 
 ### `What is SSH Exactly?`
 
@@ -177,9 +177,9 @@ Furthermore, keys embedded within scripts and applications can also become stati
 
 ### `Further Reading`
 
-SSH might be one of the more complicated network protocols. However, the reason for its wide use and popularity is simple: All communication between the SSH client and server is entirely encrypted and, therefore, incredibly safe. 
+[SSH](https://www.ipxo.com/blog/what-is-ssh/) might be one of the more complicated network protocols. However, the reason for its wide use and popularity is simple: All communication between the SSH client and server is entirely encrypted and, therefore, incredibly safe. 
 
-Naturally, the SSH protocol is not without its faults. That said, it is still much better than other authentication methods. It can prove very beneficial to practically any business that needs a secure method of sharing files and communicating over the internet.
+Naturally, the [SSH] protocol is not without its faults. That said, it is still much better than other authentication methods. It can prove very beneficial to practically any business that needs a secure method of sharing files and communicating over the internet.
 
 If you are looking to start using SSH, we hope that this guide has helped you understand how it works, what it is used for and how you can use it safely.
 
