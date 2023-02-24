@@ -64,6 +64,8 @@ The client-server relationship can be tricky to understand. So, let’s delve in
 
 As stated previously, the SSH server is always the one that initiates the network connection. However, it also stays vigilant for new connections and responds to them. The server does that using the host system’s TCP port 22. 
 
+[ssh-4](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-3.png)
+
 At the start of every SSH connection, the server must authenticate itself to the client using public-key cryptography. This client authentication is necessary so the SSH client can make sure it’s communicating with a legitimate server and not an attacker.
 
 Once the client and the server establish a safe connection, users can perform:
