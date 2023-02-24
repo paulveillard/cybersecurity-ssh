@@ -144,6 +144,7 @@ Overall, SSH is beneficial for establishing encrypted connections, no matter the
 
 
 ### `Is SSH vulnerable?`
+![ssh-5](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-5.png)
 
 SSH communications security is not perfect. Thankfully, we know its flaws, and they typically stem from SSH keys and their improper use. 
 
