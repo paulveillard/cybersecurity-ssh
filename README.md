@@ -175,3 +175,13 @@ Security professionals and IT administrators don’t often change keys because t
 Furthermore, keys embedded within scripts and applications can also become static. Administrators avoid changing them as they don’t understand the underlying code and they don’t want to cause a system outage. But these static embedded keys can become an issue just like other static SSH keys. 
 
 
+### Further Reading
+
+SSH might be one of the more complicated network protocols. However, the reason for its wide use and popularity is simple: All communication between the SSH client and server is entirely encrypted and, therefore, incredibly safe. 
+
+Naturally, the SSH protocol is not without its faults. That said, it is still much better than other authentication methods. It can prove very beneficial to practically any business that needs a secure method of sharing files and communicating over the internet.
+
+If you are looking to start using SSH, we hope that this guide has helped you understand how it works, what it is used for and how you can use it safely.
+
+
+
