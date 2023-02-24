@@ -31,3 +31,19 @@ As the data was transmitted to multiple networks, there was a chance of data bei
 Hence, intercepting the network and stealing the information was extremely simple. So, the SSH secure shell protocol was devised with an encryption mechanism that could save the data from being wrongly modified.
 
 Another reason why SSH is important in current times is because of the evolved technology. **Today the market is of cloud servers. Most enterprises prefer using cloud servers for their websites. SSH enables network administrators to perform several tasks on cloud servers.**
+
+
+SSH is generally used for:
+
+    Setting up a web server for the client’s website.
+    Deploying source code to a production server.
+    
+    
+** How Does Secure Shell Protocol Work?
+
+Secure shell protocol leverages a client-server architecture to establish secure network communication. It connects an SSH secure shell client with a secure ssh server. The SSH server is by default programmed to listen to the standard TCP port 22. Hence, SSH uses this port to initiate communication with other remote systems.
+
+To authenticate the client and the server, **SSH utilizes the public-key cryptography technique.** The protocol uses hashing algorithms and strong symmetric encryption to exchange messages between client and server. It provides a great way to ensure data privacy and data integrity.
+
+Mostly, Linux is used for running the SSH protocol because of its durability and security. However, if you are using a Windows-based system, you will need a SSH secure shell client to access SSH connections.
+
