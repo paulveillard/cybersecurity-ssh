@@ -161,3 +161,9 @@ Large companies usually accumulate a massive number of SSH keys. If they have 10
 However, this can easily lead to hackers gaining access to the unaccounted keys. As a result, they may gain long-term access to the company. 
 
 
+### Frequent sharing of SSH keys
+
+Unfortunately, some employees duplicate keys thinking that they could use them more efficiently. 
+
+That said, an attacker only needs a couple of keys to gain unauthorized access. This is why SSH key sharing is something that should be monitored closely and limited when possible.
+
