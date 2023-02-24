@@ -21,5 +21,32 @@ The SSH protocol and SSH keys – access credentials within the protocol – sec
 Continue reading if you wish to learn more about SSH servers and the client programs that enable reaching them. As well as the primary use cases of the SSH protocol and its vulnerabilities.
 
 
+### How does SSH work?
+
+
+
+SSH uses the client-server model to connect the application and the server, or the location where the session is shown and the place where it’s actually running.
+
+In other words, the SSH clients contact SSH servers to begin the connection setup process. An SSH server sends its public key, and with the help of public-key cryptography, the client tries to verify the server’s identity. 
+
+Once this is over, the SSH protocol starts using strong symmetric encryption protocols and hashing algorithms to establish privacy and secure file transfers. This is how data is exchanged between client and server safely.
+
+SSH client and server do this with the help of various encryption methods, but the most common ones are Blowfish and the Advanced Encryption Standard. 
+
+Blowfish is the oldest symmetric encryption algorithm. However, the Advanced Encryption Standard, developed by the National Institute of Standards and Technology, is used more widely. 
+
+
+
+SSH also works similarly to a typical Virtual Private Network (VPN). A VPN also creates an encrypted tunnel for secure communication. The only difference is that a VPN doesn’t use the client-server model but, instead, a secure connection between your device and the VPN server.
+
+It is also important to note that the SSH secure connection works differently on different operating systems:
+
+    On Mac and Linux – via Terminal
+    On Windows – via an installed SSH client 
+
+The client-server relationship can be tricky to understand. So, let’s delve into how both SSH servers and SSH clients work. 
+
+
+
 
 
