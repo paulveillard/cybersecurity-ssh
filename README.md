@@ -136,3 +136,11 @@ Smaller businesses can also benefit from employing the SSH protocol. For example
 Overall, SSH is beneficial for establishing encrypted connections, no matter the actual use case. SSH traffic is always encrypted. Therefore, a Te looking to protect their privacy while browsing or transferring files can benefit from the Secure Shell protocol. 
 
 
+### Is SSH vulnerable?
+
+SSH communications security is not perfect. Thankfully, we know its flaws, and they typically stem from SSH keys and their improper use. 
+
+For example, we know that SSH keys can be stolen, and hackers can then use them as a backdoor to vulnerable systems. This is not uncommon, and it is usually linked to people focusing on protecting their credentials only, forgetting entirely about the protection of the keys.
+
+The problem here is that when an attacker gains access to an SSH key, they also gain access to all other keys stored on the device. Basically, if they can get their hands on only a couple of the keys, they might be able to gain remote user access to the entire company. 
+
