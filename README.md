@@ -144,3 +144,20 @@ For example, we know that SSH keys can be stolen, and hackers can then use them 
 
 The problem here is that when an attacker gains access to an SSH key, they also gain access to all other keys stored on the device. Basically, if they can get their hands on only a couple of the keys, they might be able to gain remote user access to the entire company. 
 
+
+
+Let’s take a look at a couple of SSH vulnerabilities that you should be particularly cautious about:
+
+    Inadequate SSH key tracking
+    Frequent sharing of SSH keys
+    Static SSH keys and embedded keys
+
+
+
+### Inadequate SSH key tracking
+
+Large companies usually accumulate a massive number of SSH keys. If they have 10,000 or more servers, they have millions of keys. Therefore, it’s no wonder they might lose track of some of them. 
+
+However, this can easily lead to hackers gaining access to the unaccounted keys. As a result, they may gain long-term access to the company. 
+
+
