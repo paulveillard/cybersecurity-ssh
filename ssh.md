@@ -47,3 +47,39 @@ To authenticate the client and the server, **SSH utilizes the public-key cryptog
 
 Mostly, Linux is used for running the SSH protocol because of its durability and security. However, if you are using a Windows-based system, you will need a SSH secure shell client to access SSH connections.
 
+
+### The Working Operation of SSH
+
+SSH sessions generally have only two operations:
+
+#### 1. Authentication
+
+The SSH servers need to authenticate clients before they can access the network. To authenticate clients, two methods are usually used:
+
+    Password-Based: In this method, the SSH server uses a password to authenticate the clients. It is one of the most basic methods used for authentication purposes. However, this method is not very secure and can be bypassed using brute force attacks. 
+
+    Key-Based: It is a more reliable and secure way to authenticate clients. This method generates and matches SSH key pairs to authenticate users and establish a secure connection. 
+
+#### 2. Command Execution
+
+The next task of the secure shell protocol is to access the remote server using different commands. Mac and Linux users have the benefit of directly using the terminal to execute SSH commands.
+
+However, a third-party terminal emulator client needs to be installed for Windows users to run the commands. The most popular and widely used SSH secure shell client is PuTTY.
+
+##### How to Connect?
+
+For connecting to a remote server using SSH, you must have the details of:
+
+    server host
+    user name
+
+The basic SSH command is:
+
+> $ ssh <user-name> @ <host> -p <port-no>
+
+Where:
+
+    The username is the remote machine you are trying to connect to.
+    The host is either a domain name or an IP address.
+
+On successfully entering these credentials, you will log on to the remote system server. There you can use the terminal of that system to execute commands and do the needful operations.
