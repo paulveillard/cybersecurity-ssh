@@ -2,6 +2,8 @@
 
 ## Table of Contents
 - [What is a Secure Shell]()
+- [Why Do We Need SSH in Computer Networks?]()
+- [How Does Secure Shell Protocol Work?]()
 
 
 Secure shell is a common term often used when studying computer networks. In simple terms, **SSH secure shell refers to a secured network protocol that helps access remote computers securely in a network. However, it is much more complicated than it sounds.**
