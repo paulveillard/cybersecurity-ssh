@@ -23,6 +23,8 @@ As a term, Secure Socket Shell, defines both a cryptographic network protocol an
 
 To achieve this, the SSH protocol does not only provide encryption with the help of a secure channel but also strong password authentication and public-key authentication.
 
+![ssh-1.0](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-1.0.png)
+
 The SSH protocol and SSH keys – access credentials within the protocol – secure millions of file transfers, automated functions and upkeep sessions per day. 
 
 Continue reading if you wish to learn more about SSH servers and the client programs that enable reaching them. As well as the primary use cases of the SSH protocol and its vulnerabilities.
