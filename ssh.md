@@ -50,6 +50,8 @@ Mostly, Linux is used for running the SSH protocol because of its durability and
 
 ### The Working Operation of SSH
 
+![ssh-operations](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-meaning.png)
+
 SSH sessions generally have only two operations:
 
 #### 1. Authentication
