@@ -1,1 +1,1 @@
-# cybersecurity-ssh
+# SSH (Secure Socket Shell)
