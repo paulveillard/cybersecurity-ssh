@@ -95,3 +95,64 @@ SSH secure shell has multiple features that make it essential in computer networ
 The fundamental feature of the SSH secure shell protocol is to provide secure login access to a remote system over open networks. Your username and password are encrypted on the local machine before establishing a connection.
 
 The client then uses this encrypted connection to authenticate you to the remote system’s SSH server. The entire login session remains encrypted in this mechanism
+    
+    
+### Secure File Transfer
+
+Another great feature for which SSH is loved and used by thousands of network administrators is its ability to securely transfer a file with quick speed. You literally need to type a single copy command along with the filename and its source, and the file is ready to get transferred. The file gets encrypted before the transfer and automatically decrypts after the transfer.
+
+Here is the command to transfer a file from one system to another remote system:
+
+ $ scp myfile metoo@secondaccount.com
+
+### Secure Remote Command Execution
+
+System administrators often need to run the same command on different computers. However, to save themselves from this monotonous task, secure shell offers a way to securely execute the command for different computers in one go.
+
+Here is the command used to do it:
+
+#!/bin/sh
+
+for machine in 1 2 3 4 (1,2,3,4 are the machine names)
+
+do
+
+ssh $machine /usr/bin/w
+
+done
+    
+### Keys and Agents
+
+Remembering multiple passwords for different networks and computer systems is a tough task. That is why the SSH secure shell makes use of keys for its authentication mechanisms. Leveraging the keys and a program known as an authentication agent, secure shell protocol authenticates you to all your computer accounts securely in one go.
+
+You just need to enter all the key files once into your remote system accounts. Then every time you need to access a system, you can invoke the ssh-agent program using the command line that helps you to access the remote system without asking for authentication.
+    
+    
+### Access Control
+
+SSH also allows its users to permit another person to use their personal account to access remote computers. However, the other person may get only limited access to certain functionalities.
+
+Moreover, your password or the keys does not get exposed to the user you are lending your system to. It is a highly beneficial feature that eases the workflow for network and system administrators. 
+
+### Port Forwarding
+
+It is a technique in which a TCP/IP connection can be passed through a secure shell connection to secure data transmission. This process is also known as tunneling in computer networks. It is mostly used when a network firewall blocks incoming connections to the system ports.
+
+It occurs mostly while operating your office systems. To bypass the firewall, the SSH protocol can establish a secure tunnel on an arbitrary local TCP port and offer transmission of data.
+    
+### How Secure is SSH?
+
+In general, SSH secure shell is considered one of the safest protocols for remote network communication. However, SSH, too, has its drawbacks. Brute force attacks can be made when using passwords to establish a connection using SSH. The brute force attack involves using common usernames and passwords to access the SSH servers and the root account.
+
+Conversely, SSH keys are a more secure way to authenticate. Unfortunately, if your SSH key management routine is poor, hackers can still manage to gain access to the keys in your system.
+
+Besides, their misuse can be highly disastrous as it can lead to access to privileged information such as databases, routers, payment systems, etc.
+
+Apart from it, another potential security weakness of SSH is Exposed SSH ports. Some malware programs can attack the exposed ports and use them to breach the local network.
+
+However, all these scenarios are not so common and easy to implement. But you should always take the right measures and be aware of your networks to ensure the best security for your system.
+    
+    
+ ### Conclusion
+
+SSH secure shell is a remarkable protocol that has been used for over twenty-seven years to facilitate seamless communication between remote computers. Now that you have a better understanding of SSH, you can leverage it in your projects to develop unique and secure applications. Good Luck!
