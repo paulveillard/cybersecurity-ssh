@@ -46,13 +46,13 @@ Continue reading if you wish to learn more about SSH servers and the client prog
 > SSH uses the client-server model to connect the application and the server, or the location where the session is shown and the place where it’s actually running.
 ![ssh-2](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-1.png)
 
-> In other words, the SSH clients contact SSH servers to begin the connection setup process. An SSH server sends its public key, and with the help of public-key cryptography, the client tries to verify the server’s identity. 
+> In other words, the SSH clients contact SSH servers to begin the connection setup process. An SSH server sends its public key, and with the help of *public-key cryptography,* the client tries to verify the server’s identity. 
 
-Once this is over, the SSH protocol starts using strong symmetric encryption protocols and hashing algorithms to establish privacy and secure file transfers. This is how data is exchanged between client and server safely.
+Once this is over, the SSH protocol starts using strong symmetric encryption protocols and hashing algorithms to establish privacy and secure file transfers. This is how data is exchanged between *client* and *server* safely.
 
-SSH client and server do this with the help of various encryption methods, but the most common ones are Blowfish and the Advanced Encryption Standard. 
+SSH client and server do this with the help of various encryption methods, but the most common ones are Blowfish and the *Advanced Encryption Standard.* 
 
-Blowfish is the oldest symmetric encryption algorithm. However, the Advanced Encryption Standard, developed by the National Institute of Standards and Technology, is used more widely. 
+*Blowfish* is the oldest symmetric encryption algorithm. However, the Advanced Encryption Standard, developed by the National Institute of Standards and Technology, is used more widely. 
 
 
 
