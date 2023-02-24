@@ -43,7 +43,7 @@ Continue reading if you wish to learn more about SSH servers and the client prog
 
 
 
-> SSH uses the client-server model to connect the application and the server, or the location where the session is shown and the place where it’s actually running.
+> **SSH uses the client-server model to connect the application and the server, or the location where the session is shown and the place where it’s actually running.**
 ![ssh-2](https://github.com/paulveillard/cybersecurity-ssh/blob/main/img/ssh-1.png)
 
 > In other words, the SSH clients contact SSH servers to begin the connection setup process. An SSH server sends its public key, and with the help of *public-key cryptography,* the client tries to verify the server’s identity. 
