@@ -63,5 +63,37 @@ Once the client and the server establish a safe connection, users can perform:
     Remote host administration
     Other application traffic security
 
-Unfortunately, the SSH server is often the chosen target of cyberattackers as it provides remote access to the host system. Due to that, the software quality must be high, and the server must have strict security requirements. In other words, its code has to be reliable to prevent bugs and imperfections that could lead to unnecessary exposure. 
+- Unfortunately, the SSH server is often the chosen target of cyberattackers as it provides remote access to the host system. Due to that, the software quality must be high, and the server must have strict security requirements. In other words, its code has to be reliable to prevent bugs and imperfections that could lead to unnecessary exposure. 
+
+
+### SSH Client
+
+System administrators can benefit from secure connections by installing a program on their local machine and the remote computer. This software is known as the Secure Socket Client. There are many popular SSH client services on the web to choose from for local and remote computers. 
+
+While Mac and Linux devices typically use a Terminal program, the Windows operating system requires a dedicated client program to run SSH commands. For example, PuTTY, KiTTY, MobaXterm or WinSCP. 
+
+Once you have a client installed on a local machine, you also have to install an SSH server to accept SSH connections. This is how you can start using this secure alternative to regular remote access options. Essentially, the client acts as a secure environment, via which you connect to a remote host device.
+
+When it comes to SSH authentication, you use a username and password. You can also use a public-private key pair for secure remote access management without a password. 
+
+
+### Encryption key
+
+The encryption key is a form of user authentication within the SSH protocol. 
+
+> SSH keys are a secure alternative compared to regular passwords, and they enable secure automation. For example, automated file transfers. They are often used in configuration management tools, scripts and backup systems, too.
+
+> SSH keys are, effectively, a cryptographic key pair that comprises a private key and a public key.
+
+The public key is configured on the server in a unique public key file format. To permit access to a user with a copy of the corresponding private key. And thanks to this unique public-to-private-key relationship, encrypted keys are much safer than passwords. 
+
+However, the system is not perfect, which is why you should also use a passphrase, as it encrypts the private key. 
+
+The passphrase can protect against key leaking and ensure that a cyberattacker cannot complete a successful public key authentication. In short, hackers can gain access to private keys, but they are useless if they are encrypted with a passphrase. 
+
+Unfortunately, it is estimated that more than 90% of SSH keys in large corporations don’t have a passphrase. Undoubtedly, that is a considerable security risk. 
+
+- The good news is that you can deal with this by implementing various SSH key management practices that can help create a more secure network. 
+
+
 
