@@ -167,3 +167,11 @@ Unfortunately, some employees duplicate keys thinking that they could use them m
 
 That said, an attacker only needs a couple of keys to gain unauthorized access. This is why SSH key sharing is something that should be monitored closely and limited when possible.
 
+
+### Static SSH keys and embedded keys
+
+Security professionals and IT administrators don’t often change keys because they fear that something might be forgotten along the way. However, this creates a lot of static keys, which can quickly open a backdoor for potential cyberattackers, should they find them. 
+
+Furthermore, keys embedded within scripts and applications can also become static. Administrators avoid changing them as they don’t understand the underlying code and they don’t want to cause a system outage. But these static embedded keys can become an issue just like other static SSH keys. 
+
+
