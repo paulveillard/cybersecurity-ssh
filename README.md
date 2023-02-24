@@ -3,16 +3,16 @@
 An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidelines and important resources about Secure Socket Shell (SSH) in Cybersecurity.
 > Thanks to all contributors, you're awesome and wouldn't be possible without you! Our goal is to build a categorized community-driven collection of very well-known resources.
 
-## Table of Contents
+## `Table of Contents`
 - [About SSH]()
 - [What is SSH Exactly?]()
 - [How Does SSH work]()
 
 
-### About SSH? A Beginner's guide to Secure SSH
+### `About SSH? A Beginner's guide to Secure SSH`
 - A Secure Shell, or Secure Socket Shell, is a network protocol that allows devices to achieve two important things: communicate and share data. Additionally, the SSH protocol also encrypts data, making it ideal for unsecured networks.
 
-### What is SSH Exactly??
+### `What is SSH Exactly?`
 
 
 As a term, Secure Socket Shell, defines both a cryptographic network protocol and the programs that enable it to work.
@@ -26,7 +26,7 @@ The SSH protocol and SSH keys – access credentials within the protocol – sec
 Continue reading if you wish to learn more about SSH servers and the client programs that enable reaching them. As well as the primary use cases of the SSH protocol and its vulnerabilities.
 
 
-### How does SSH work?
+### `How does SSH work?`
 
 
 
@@ -53,7 +53,7 @@ The client-server relationship can be tricky to understand. So, let’s delve in
 
 
 
-### SSH Server
+### `SSH Server`
 
 
 
@@ -71,7 +71,7 @@ Once the client and the server establish a safe connection, users can perform:
 - Unfortunately, the SSH server is often the chosen target of cyberattackers as it provides remote access to the host system. Due to that, the software quality must be high, and the server must have strict security requirements. In other words, its code has to be reliable to prevent bugs and imperfections that could lead to unnecessary exposure. 
 
 
-### SSH Client
+### `SSH Client`
 
 System administrators can benefit from secure connections by installing a program on their local machine and the remote computer. This software is known as the Secure Socket Client. There are many popular SSH client services on the web to choose from for local and remote computers. 
 
@@ -82,7 +82,7 @@ Once you have a client installed on a local machine, you also have to install an
 When it comes to SSH authentication, you use a username and password. You can also use a public-private key pair for secure remote access management without a password. 
 
 
-### Encryption key
+### `Encryption key`
 
 The encryption key is a form of user authentication within the SSH protocol. 
 
@@ -101,7 +101,7 @@ Unfortunately, it is estimated that more than 90% of SSH keys in large corporati
 - The good news is that you can deal with this by implementing various SSH key management practices that can help create a more secure network. 
 
 
-### What is SSH typically used for?
+### `What is SSH typically used for?`
 
 The SSH protocol is most notably used in data centers where it provides:
 
@@ -136,7 +136,7 @@ Smaller businesses can also benefit from employing the SSH protocol. For example
 Overall, SSH is beneficial for establishing encrypted connections, no matter the actual use case. SSH traffic is always encrypted. Therefore, a Te looking to protect their privacy while browsing or transferring files can benefit from the Secure Shell protocol. 
 
 
-### Is SSH vulnerable?
+### `Is SSH vulnerable?`
 
 SSH communications security is not perfect. Thankfully, we know its flaws, and they typically stem from SSH keys and their improper use. 
 
@@ -154,28 +154,28 @@ Let’s take a look at a couple of SSH vulnerabilities that you should be partic
 
 
 
-### Inadequate SSH key tracking
+### `Inadequate SSH key tracking`
 
 Large companies usually accumulate a massive number of SSH keys. If they have 10,000 or more servers, they have millions of keys. Therefore, it’s no wonder they might lose track of some of them. 
 
 However, this can easily lead to hackers gaining access to the unaccounted keys. As a result, they may gain long-term access to the company. 
 
 
-### Frequent sharing of SSH keys
+### `Frequent sharing of SSH keys`
 
 Unfortunately, some employees duplicate keys thinking that they could use them more efficiently. 
 
 That said, an attacker only needs a couple of keys to gain unauthorized access. This is why SSH key sharing is something that should be monitored closely and limited when possible.
 
 
-### Static SSH keys and embedded keys
+### `Static SSH keys and embedded keys`
 
 Security professionals and IT administrators don’t often change keys because they fear that something might be forgotten along the way. However, this creates a lot of static keys, which can quickly open a backdoor for potential cyberattackers, should they find them. 
 
 Furthermore, keys embedded within scripts and applications can also become static. Administrators avoid changing them as they don’t understand the underlying code and they don’t want to cause a system outage. But these static embedded keys can become an issue just like other static SSH keys. 
 
 
-### Further Reading
+### `Further Reading`
 
 SSH might be one of the more complicated network protocols. However, the reason for its wide use and popularity is simple: All communication between the SSH client and server is entirely encrypted and, therefore, incredibly safe. 
 
