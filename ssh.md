@@ -83,3 +83,15 @@ Where:
     The host is either a domain name or an IP address.
 
 On successfully entering these credentials, you will log on to the remote system server. There you can use the terminal of that system to execute commands and do the needful operations.
+    
+    
+### Glancing at the Features of SSH
+
+SSH secure shell has multiple features that make it essential in computer networks. Some of its features are as follows:
+
+    
+### Secure Remote Logins
+
+The fundamental feature of the SSH secure shell protocol is to provide secure login access to a remote system over open networks. Your username and password are encrypted on the local machine before establishing a connection.
+
+The client then uses this encrypted connection to authenticate you to the remote system’s SSH server. The entire login session remains encrypted in this mechanism
