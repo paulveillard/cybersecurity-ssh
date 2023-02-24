@@ -112,3 +112,10 @@ The SSH protocol is most notably used in data centers where it provides:
 
 
 
+In almost all data centers, SSH comes together with Mac, Unix and Linux operating systems.  
+
+The SSH network protocol is ideal for network administrators looking to gain secure remote login access to remote systems. They routinely use the protocol to execute commands for testing applications, rebooting systems, automating data transfers and so much more. 
+
+- SSH is highly useful for major companies as well. Corporations use the SSH protocol to complete encrypted file transfers and thus avoid other less secure file transfer methods. The Internet Engineering Task Force (IETF) created the SSH File Transfer Protocol (SFTP) as an extension to SSH to ensure that every file transfer is secure.
+
+
