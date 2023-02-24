@@ -4,7 +4,9 @@ An ongoing & curated collection of awesome software best practices and technique
 > Thanks to all contributors, you're awesome and wouldn't be possible without you! Our goal is to build a categorized community-driven collection of very well-known resources.
 
 ## Table of Contents
-- Introduction
+- [About SSH]()
+- [What is SSH Exactly?]()
+- [How Does SSH work]()
 
 
 ### About SSH? A Beginner's guide to Secure SSH
@@ -117,5 +119,20 @@ In almost all data centers, SSH comes together with Mac, Unix and Linux operatin
 The SSH network protocol is ideal for network administrators looking to gain secure remote login access to remote systems. They routinely use the protocol to execute commands for testing applications, rebooting systems, automating data transfers and so much more. 
 
 - SSH is highly useful for major companies as well. Corporations use the SSH protocol to complete encrypted file transfers and thus avoid other less secure file transfer methods. The Internet Engineering Task Force (IETF) created the SSH File Transfer Protocol (SFTP) as an extension to SSH to ensure that every file transfer is secure.
+
+
+
+Corporations also use the protocol to complete various automated tasks like:
+
+    Reporting
+    System backup
+    Data backup
+    Data archiving
+    Database cleanups
+    Network maintenance
+
+Smaller businesses can also benefit from employing the SSH protocol. For example, they can use it to share files with their customers in a secure way. 
+
+Overall, SSH is beneficial for establishing encrypted connections, no matter the actual use case. SSH traffic is always encrypted. Therefore, a Te looking to protect their privacy while browsing or transferring files can benefit from the Secure Shell protocol. 
 
 
