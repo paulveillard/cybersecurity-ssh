@@ -7,8 +7,8 @@ An ongoing & curated collection of awesome software best practices and technique
 - [About SSH]()
 - [What is SSH Exactly?]()
 - [How Does SSH work]()
-- SSH Server
-- SSH Client
+- [SSH Server]()
+- [SSH Client]()
 - Encryption Key
 - What is SSH Typically used for?
 - Is SSH Vulnerable
