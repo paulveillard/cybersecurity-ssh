@@ -99,4 +99,16 @@ Unfortunately, it is estimated that more than 90% of SSH keys in large corporati
 - The good news is that you can deal with this by implementing various SSH key management practices that can help create a more secure network. 
 
 
+### What is SSH typically used for?
+
+The SSH protocol is most notably used in data centers where it provides:
+
+    Remote access to various resources
+    Secure management
+    The delivery of software patches
+    Virtualization platform administration
+    Secure router management
+    Server hardware maintenance
+
+
 
